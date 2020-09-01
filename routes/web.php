@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/students', 'StudentController@indexStudents' );
+Route::get('/students', 'StudentController@indexStudents' )->name('students');
