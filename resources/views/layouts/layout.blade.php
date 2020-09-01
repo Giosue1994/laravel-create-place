@@ -65,6 +65,10 @@
     </head>
 
     <body>
+      <ul>
+        <li><a href="{{ route('students') }}">home</a></li>
+        <li><a href="{{ route('handlebars') }}">handlebars</a></li>
+      </ul>
       @yield('main_content')
 
       <script src="{{ asset('js/app.js') }}"></script>

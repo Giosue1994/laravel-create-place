@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 @section('main_content')
-  <h1>Lista studenti</h1>
+  <h1>Lista studenti handlebars</h1>
 
   <div class="div">
 
