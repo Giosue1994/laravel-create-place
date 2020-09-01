@@ -12,4 +12,10 @@ class StudentController extends Controller
 
       return view('students', compact('students'));
     }
+
+    public function viewHandlebars() {
+      $students = Student::all();
+
+      return view('students-handlebars', compact('students'));
+    }
 }
